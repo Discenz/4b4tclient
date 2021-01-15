@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fbftclient",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "4b4t Client",
+  "description": "Fabric mod for server 4b4t.us",
   "authors": [
-    "Me!"
+    "Discens"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Discenz/4b4tclient/blob/master/README.md",
+    "sources": "https://github.com/Discenz/4b4tclient"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.discens.fbftclient.FbftClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fbftclient.mixins.json"
   ],
 
   "depends": {
